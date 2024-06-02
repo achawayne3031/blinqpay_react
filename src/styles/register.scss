@@ -1,0 +1,76 @@
+.overview-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  
+  
+    .mockup-section {
+      background-color: rgba(242, 244, 247, 1);
+      padding-top: 100px;
+  
+      .mockup-logo {
+        max-height: 500px;
+        position: relative;
+        right: -100px;
+      }
+    }
+  }
+  
+
+  .form-section {
+    background-color: #ffffff;
+    padding: 20px 70px;
+
+    .signup-btn {
+      background-color: rgba(105, 65, 198, 1);
+      color: #ffffff;
+      width: 100%;
+      padding: 10px 15px;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+
+    .already-text {
+      font-size: 13px;
+      margin-top: 20px;
+      span {
+        cursor: pointer;
+        color: rgba(105, 65, 198, 1);
+      }
+    }
+  }
+
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    p {
+      font-size: 10px;
+      color: rgba(102, 112, 133, 1);
+  
+      span {
+        padding-right: 10px;
+      }
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .logo-text {
+      display: none;
+    }
+  
+    .footer-wrapper {
+      display: none;
+    }
+  
+    .overview-wrapper {
+      .form-section {
+        padding: 10px 20px;
+      }
+  
+      .mockup-section {
+        display: none;
+      }
+    }
+  }
+  

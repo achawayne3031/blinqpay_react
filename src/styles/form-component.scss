@@ -1,0 +1,78 @@
+.input-wrapper {
+    margin-top: 20px;
+  
+    div {
+      padding-top: 0px !important;
+  
+      input {
+        padding: 12.5px 14px !important;
+      }
+    }
+  }
+  
+  /* Input style */
+  
+  /* Label */
+  label {
+    font-weight: 600;
+    font-size: 0.75rem;
+    display: block !important;
+    margin-bottom: 8px;
+    line-height: 1.25;
+  }
+  
+  /* Input field */
+  input {
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    color: #344054;
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 3px;
+    padding: 0px 1rem;
+    height: 50px;
+    border: 0.0625rem solid #e4e6eb;
+  }
+  
+  input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  /* Input field focus */
+  input:focus {
+    outline: none !important;
+    border: 1px solid #cd3636 !important;
+    box-shadow: 0 0 0.125rem 0.125rem rgba(23, 95, 255, 0.15) !important;
+  }
+  
+  .error {
+    color: #db4437;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 2px;
+  
+    .error-icon {
+      margin-right: 5px;
+      font-size: 10px;
+    }
+  }
+  
+  .select-form {
+    padding: 8px !important;
+  
+    #Gender {
+      height: 10px !important;
+    }
+  }
+  
+  .eye-icon {
+    float: right;
+    font-size: 20px;
+    position: relative;
+    top: -35px;
+    right: 10px;
+    cursor: pointer;
+  }
+  

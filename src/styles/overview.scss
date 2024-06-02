@@ -1,0 +1,50 @@
+
+
+.col-wrapper-content{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+
+.thumbnail-content{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+
+.title-text{
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.desc-text{
+    font-size: 12px;
+}
+
+.custom-btn{
+    font-size: 10px !important;
+}
+
+.btn-card-wrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.sub-text{
+    float: right;
+    b{
+        text-transform: capitalize;
+        font-size: 10px;
+    }
+}
+
+
+
+.button-wrapper-proceed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
